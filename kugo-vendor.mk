@@ -16,5 +16,17 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kugo/proprietary/etc/firmware/touch_module_id_0xa0.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0xa0.img \
     vendor/sony/kugo/proprietary/etc/firmware/touch_module_id_0xa1.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0xa1.img \
     vendor/sony/kugo/proprietary/etc/firmware/touch_module_id_0xa2.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0xa2.img \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_common.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_common.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_cpp_liveshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_cpp_liveshot.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_cpp_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_cpp_preview.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_cpp_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_cpp_snapshot.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_cpp_video.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_cpp_video.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_default_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_default_preview.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_default_video.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_default_video.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_postproc.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_postproc.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_preview.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_preview.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_snapshot.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_snapshot.so \
+    vendor/sony/kugo/proprietary/odm/lib/libchromatix_imx241_video.so:$(TARGET_COPY_OUT_ODM)/lib/libchromatix_imx241_video.so \
+    vendor/sony/kugo/proprietary/odm/lib/libmmcamera_imx241.so:$(TARGET_COPY_OUT_ODM)/lib/libmmcamera_imx241.so \
     vendor/sony/kugo/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/sony/kugo/proprietary/vendor/bin/qns:$(TARGET_COPY_OUT_VENDOR)/bin/qns
