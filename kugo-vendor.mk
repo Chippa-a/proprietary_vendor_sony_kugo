@@ -6,13 +6,13 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/sony/kugo
 
 PRODUCT_COPY_FILES += \
-    vendor/sony/kugo/proprietary/etc/acdbdata/Sony/Sony_loire_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Bluetooth_cal.acdb \
-    vendor/sony/kugo/proprietary/etc/acdbdata/Sony/Sony_loire_General_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_General_cal.acdb \
-    vendor/sony/kugo/proprietary/etc/acdbdata/Sony/Sony_loire_Global_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Global_cal.acdb \
-    vendor/sony/kugo/proprietary/etc/acdbdata/Sony/Sony_loire_Handset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Handset_cal.acdb \
-    vendor/sony/kugo/proprietary/etc/acdbdata/Sony/Sony_loire_Hdmi_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Hdmi_cal.acdb \
-    vendor/sony/kugo/proprietary/etc/acdbdata/Sony/Sony_loire_Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Headset_cal.acdb \
-    vendor/sony/kugo/proprietary/etc/acdbdata/Sony/Sony_loire_Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/Sony/Sony_loire_Speaker_cal.acdb \
+    vendor/sony/kugo/proprietary/vendor/etc/acdbdata/Sony_loire_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Bluetooth_cal.acdb \
+    vendor/sony/kugo/proprietary/vendor/etc/acdbdata/Sony_loire_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_General_cal.acdb \
+    vendor/sony/kugo/proprietary/vendor/etc/acdbdata/Sony_loire_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Global_cal.acdb \
+    vendor/sony/kugo/proprietary/vendor/etc/acdbdata/Sony_loire_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Handset_cal.acdb \
+    vendor/sony/kugo/proprietary/vendor/etc/acdbdata/Sony_loire_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Hdmi_cal.acdb \
+    vendor/sony/kugo/proprietary/vendor/etc/acdbdata/Sony_loire_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Headset_cal.acdb \
+    vendor/sony/kugo/proprietary/vendor/etc/acdbdata/Sony_loire_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Sony_loire_Speaker_cal.acdb \
     vendor/sony/kugo/proprietary/etc/firmware/touch_module_id_0xa0.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0xa0.img \
     vendor/sony/kugo/proprietary/etc/firmware/touch_module_id_0xa1.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0xa1.img \
     vendor/sony/kugo/proprietary/etc/firmware/touch_module_id_0xa2.img:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/touch_module_id_0xa2.img \
